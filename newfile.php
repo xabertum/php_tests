@@ -1,14 +1,18 @@
 
 <?php
 
-$txt1 = "Learn PHP";
-$txt2 = "W3Schools.com";
-$x = 5;
-$y = 4;
+class Car {
+	function Car() {
+		$this->model = "BMW";		
+	}
+}
 
-print "<h2>$txt1</h2>";
-print "Study PHP at $txt2<br>";
-print $x + $y;
+//Create an object
+$herbie = new Car();
+
+//Show object propierties
+echo $herbie->model;
+
 
 ?>
 
