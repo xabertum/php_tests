@@ -1,6 +1,6 @@
 <?php
 
-echo str_word_count ("Hola como estás?");
+echo strpos ("Hola como estás?", "c");
 
 
 ?>

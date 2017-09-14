@@ -13,6 +13,11 @@ $herbie = new Car();
 //Show object propierties
 echo $herbie->model;
 
+//Define constant
+define("GRETTING", "Welcome!");
+
+echo GRETTING;
+
 
 ?>
 
