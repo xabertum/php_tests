@@ -1,6 +1,6 @@
 <?php
 
-echo strlen ("Hola como estás?");
+echo str_word_count ("Hola como estás?");
 
 
 ?>
