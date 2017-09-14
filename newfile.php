@@ -1,17 +1,14 @@
 
 <?php
 
-function myTest() {
-	static $x  = 0;
-	echo $x;
-	$x++;
-	
-}
+$txt1 = "Learn PHP";
+$txt2 = "W3Schools.com";
+$x = 5;
+$y = 4;
 
-myTest();
-myTest();
-myTest();
-
+print "<h2>$txt1</h2>";
+print "Study PHP at $txt2<br>";
+print $x + $y;
 
 ?>
 
