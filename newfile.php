@@ -5,7 +5,8 @@ $x = 5; //global scope
 
 function myTest() {
 	//Using x inside this function will generate an error
-	echo "Variable x inside function is: $x";
+	$y = "Inside function variable";
+	echo "Variable x inside function is: $y";
 			
 }
 
