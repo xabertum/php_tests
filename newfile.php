@@ -19,5 +19,8 @@ define("GRETTING", "Welcome!");
 echo GRETTING;
 
 
+define("HOLAMUNDO", "Hello world!", true);
+echo holamundo;
+
 ?>
 
