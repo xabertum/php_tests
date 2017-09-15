@@ -18,7 +18,7 @@ define("GRETTING", "Welcome!");
 
 echo GRETTING;
 
-
+//Define another constant
 define("HOLAMUNDO", "Hello world!", true);
 echo holamundo;
 
